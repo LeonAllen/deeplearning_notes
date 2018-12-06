@@ -1,3 +1,4 @@
+<code>
 import tensorflow as tf
 
 # Create TensorFlow object called hello_constant
@@ -7,3 +8,4 @@ with tf.Session() as sess:
     # Run the tf.constant operation in the session
     output = sess.run(hello_constant)
     print(output)
+</code>
