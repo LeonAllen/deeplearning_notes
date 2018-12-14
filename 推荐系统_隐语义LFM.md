@@ -5,4 +5,5 @@
 
 二、隐语义模型的数学理解
 #
-<br> 如下图所示，R矩阵是用户对于各个物品的
+<br> 如下图所示，R矩阵是用户对于各个物品的偏好信息(Rij表示的是user_i对于item_j的喜好程度),P矩阵是用户对于不同物品类别的兴趣程序
+![baidu](https://github.com/LeonAllen/deeplearning_notes/blob/master/image/Rpq1.jpg)  
