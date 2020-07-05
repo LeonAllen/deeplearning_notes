@@ -21,7 +21,7 @@
 
 ## 3.  Memcached运行原理
 
-![图片1](C:\Users\weicheng\Desktop\markdown\images\图片1.png)
+![图片1](https://github.com/LeonAllen/notes/blob/master/database/images/%E5%9B%BE%E7%89%871.png)
 
 尽管是分布式的缓存服务器，但是！！！
 
@@ -33,7 +33,7 @@
 
 使用`libevent`作为底层的网络处理组件
 
-![libevent](C:\Users\weicheng\Desktop\markdown\images\libevent.png)
+![libevent](https://github.com/LeonAllen/notes/blob/master/database/images/libevent.png)
 
 ### 3.1 libevent
 
@@ -103,7 +103,7 @@ Memcached的标准的分布式方法（对键的存储根据服务器台数的�
 
 4）如果超过232仍然找不到服务器，就保存到第一台服务器上。
 
-![Consistent Hashing](C:\Users\weicheng\Desktop\markdown\images\Consistent Hashing.png)
+![Consistent Hashing](https://github.com/LeonAllen/notes/blob/master/database/images/Consistent%20Hashing.png)
 
   使用一般的hash函数，服务器的映射地点的分布可能出现不均匀的情况。
 
@@ -115,6 +115,6 @@ Memcached的标准的分布式方法（对键的存储根据服务器台数的�
 
 ## 6. Memcached架构举例
 
-![memcached架构举例](C:\Users\weicheng\Desktop\markdown\images\memcached架构举例.png)
+![memcached架构举例](https://github.com/LeonAllen/notes/blob/master/database/images/memcached%E6%9E%B6%E6%9E%84%E4%B8%BE%E4%BE%8B.png)
 
 200台左右的memcached服务器, 每台服务器的容量为3GB，则系统就有了将近600GB的巨大的内存数据库。 
